@@ -1,0 +1,16 @@
+{
+    "bombparty": {
+        "start": "Rozpoczynanie gry...",
+        "no_players": "Nikt nie dołączył.",
+        "player_joined": "<@{player}> dołączył do gry!",
+        "player_left": "<@{player}> opuścił grę.",
+        "player_forfeited": "<@{player}> **poddał się!**",
+        "player_turn": "**Tura gracza <@{player}>!** Napisz słowo które zawiera literki: `{letters}`",
+        "player_eliminated": "<@{player}> **został(a) wyeliminowany/a!!**",
+        "player_hplost": "<@{player}> **stracił(a) 1 HP!**",
+        "words_list": "Lista słów których mogłeś/aś użyć: {words}",
+        "words_used": "To słowo zostało już użyte!",
+        "game_winner": "🏆🏆🏆 <@{player}> **wygrał(a) grę!** 🏆🏆🏆\nGra trwała: **{rounds}** rund.",
+        "game_nowinner": "🏆🏆🏆 **Nikt nie wygrał gry..?** 🏆🏆🏆\nGra trwała: **{rounds}** rund."
+    }
+}
