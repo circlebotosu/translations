@@ -1,0 +1,16 @@
+{
+    "bombparty": { 
+        "start": "Starte das Spiel...", 
+        "no_players": "Niemand ist dem Spiel beigetreten.", 
+        "player_joined": "<@{player}> ist dem Spiel beigetreten!", 
+        "player_left": "<@{player}> hat das Spiel verlassen.", 
+        "player_forfeited": "<@{player}> **hat aufgegeben!!**", 
+        "player_turn": "**<@{player}>'s ist dran! **Schreibe ein Wort, dass die folgenden Buchstaben beinhaltet: `{letters}`", 
+        "player_eliminated": "<@{player}> **wurde eliminiert!!**", 
+        "player_hplost": "<@{player}> **hat ein Leben verloren!**", 
+        "words_list": "Die folgenden Wörter hätten benutzt werden können: {words}", 
+        "words_used": "Dieses Wort wurde bereits benutzt!", 
+        "game_winner": "🏆🏆🏆 <@{player}> **hat das Spiel gewonnen!!!** 🏆🏆🏆\nDas Spiel hat **{rounds}** Runden gedauert.", 
+        "game_nowinner": "🏆🏆🏆 **Niemand hat gewonnen..?** 🏆🏆🏆\nDas Spiel hat **{rounds}** Runden gedauert." 
+    } 
+}
