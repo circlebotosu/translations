@@ -5,7 +5,7 @@
         "player_joined": "<@{player}> присоединился к игре!",
         "player_left": "<@{player}> вышел из игры.",
         "player_forfeited": "<@{player}> **сдался!!**",
-        "player_turn": "**<@{player}> ход!** Напишите слово которое содержит данные буквы: `{letters}`",
+        "player_turn": "**<@{player}> ход!** Напишите слово, которое содержит данные буквы: `{letters}`",
         "player_eliminated": "<@{player}> **выбыл!!**",
         "player_hplost": "<@{player}> **потерял 1 здоровье!**",
         "words_list": "Вот несколько слов которые вы могли бы написать: {words}",
@@ -15,7 +15,7 @@
     },
     "osu": {
         "link_already_linked": "Вы уже привязали свой аккаунт.",
-        "link_almost_done": "Почти готово! Нажмите на ссылку ниже чтобы авторизовать свой Bancho аккаунт.\n\n{url}",
+        "link_almost_done": "Почти готово! Нажмите на ссылку ниже, чтобы авторизовать свой Bancho аккаунт.\n\n{url}",
         "invalid_arguments": "Неправильный аргумент(ы).",
         "user_not_found": "`{user}` не найден на {server}.",
         "pp_for_fc": "{pp}PP за {acc}% ФК",
@@ -86,7 +86,7 @@
     },
     "info": {
         "prefix_text": "Мой префикс: `{prefix}`",
-        "invite_text": "[Нажми на меня]({link}) чтобы пригласить меня на свой сервер.",
+        "invite_text": "[Нажми на меня]({link}), чтобы пригласить на свой сервер.",
         "timezone_notset": "{user} не поставил свой часовой пояс.",
         "timezone_text": "Сейчас {time} для {user}.",
         "set_timezone_error": "Неправильный часовой пояс.",
