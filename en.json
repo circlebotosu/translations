@@ -53,7 +53,7 @@
         "nochokes_totalpp_text": "Total PP: {old_pp}PP **➔ {new_pp}PP**",
         "compare_no_scores": "`{user}` has no score(s) on {artist} - {title} [{version}] in {server}.",
         "compare_embed_title": "All {mode} plays for {user} on {artist} - {title} [{version}]",
-        "compare_score_text": "Score",
+        "compare_score_text": "`{mods}` Score",
         "map_dl_failed": "Failed to download beatmap.",
         "map_embed_title": "{artist} - {title} by {creator}",
         "map_keys_text": "**▸ Keys:** {keys}K",
