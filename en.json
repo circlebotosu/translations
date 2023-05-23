@@ -77,5 +77,21 @@
         "avg_misses_text": "Misses:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_stars_text": "Stars:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_ppforfc_text": "PP for FC:     Min: {min}pp    Avg: {avg}pp    Max: {max}pp\n"
+    },
+    "moderation" : {
+        "set_prefix_error": "Prefixes can only be 5 characters or less.",
+        "set_prefix_success": "Prefix set to `{prefix}`",
+        "steal_emoji_success": "Emoji {emoji} has been created."
+    },
+    "info": {
+        "prefix_text": "My prefix is: `{prefix}`",
+        "invite_text": "[Click me]({link}) to invite me to your server.",
+        "timezone_notset": "{user} has not set their timezone.",
+        "timezone_text": "It is currently {time} for {user}.",
+        "set_timezone_error": "Invalid timezone.",
+        "set_timezone_text": "Your timezone has been set to {timezone}."
+    },
+    "music": {
+        
     }
 }
