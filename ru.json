@@ -42,7 +42,7 @@
         "profile_info_lastseen": "последний раз в сети: {date}\n",
         "recent_no_scores": "У `{user}` нет недавнего результата(ов) на {server}.",
         "recent_map_deleted": "Карта не найдена.\nВозможно карта была удалена?",
-        "recent_embed_title": "Недавний {mode} результат для {user}:**",
+        "recent_embed_title": "**Недавний {mode} результат для {user}:**",
         "recent_embed_footer": "Попытка #{tries} • На {server} • Результат {idx} из {total}",
         "top_no_scores": "У `{user}` нет лучшего(их) результата(ов) на {server}.",
         "top_search_fail": "Не найдено результатов содержащих слово(а) `{search}`.",
