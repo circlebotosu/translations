@@ -35,6 +35,8 @@
         "profile_performance_accuracy": "точность: **{acc}%**\n",
         "profile_performance_rank": "рейтинг в мире: {rank}\n",
         "profile_performance_playcount": "количество игр: **{playcount}**\n",
+        "profile_performance_playtime": "Времени в игре: **{playtime}**\n",
+        "profile_performance_level": "уровень: **{level}**\n",
         "profile_info_tab": "основная информация",
         "profile_info_joined": "дата регистрации: {date}\n",
         "profile_info_lastseen": "последний раз в сети: {date}\n",
