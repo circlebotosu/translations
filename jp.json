@@ -35,6 +35,8 @@
       "profile_performance_accuracy": "正確さ: **{acc}%**\n",
       "profile_performance_rank": "グローバルランク: {rank}\n",
       "profile_performance_playcount": "プレイ回数: **{playcount}**\n",
+      "profile_performance_playtime": "遊び時間: **{playtime}**\n",
+      "profile_performance_level": "レベル: **{level}**\n",
       "profile_info_tab": "一般情報",
       "profile_info_joined": "アカウント作成日: {date}\n",
       "profile_info_lastseen": "最終ログイン: {date}\n",
