@@ -52,6 +52,7 @@
         "top_timestamp_text": "▸ Wynik ustawiony <t:{timestamp}:R> ",
         "top_search_text": "Szukaj: `{search}`",
         "top_sort_text": "Sortowanie: `{sort}`",
+        "nochokes_embed_title": "Najlepsze naprawione wyniki z {mode} dla {user}",
         "nochokes_totalpp_text": "Łączne PP: {old_pp}PP **➔ {new_pp}PP**",
         "compare_no_scores": "`{user}` nie ma wyników na {artist} - {title} [{version}] na {server}.",
         "compare_embed_title": "Wszystkie wyniki z {mode} dla {user} na {artist} - {title} [{version}]",
@@ -90,7 +91,9 @@
     "moderation" : {
         "set_prefix_error": "Prefixy mogą mieć tylko 5 znaczków lub mniej.",
         "set_prefix_success": "Prefix ustawiony na `{prefix}`",
-        "steal_emoji_success": "Emoji {emoji} zostało utworzone."
+        "steal_emoji_success": "Emoji {emoji} zostało utworzone.",
+        "set_language_error": "Język musi być jednym z podanych: en, de, fr, jp, pl, ru",
+        "set_language_success": "Język serwera ustawiony na Polski!"
     },
     "info": {
         "prefix_text": "Mój prefix to: `{prefix}`",

@@ -52,6 +52,7 @@
         "top_timestamp_text": "▸ Результат был поставлен <t:{timestamp}:R> ",
         "top_search_text": "Поиск: `{search}`",
         "top_sort_text": "Сортировка: `{sort}`",
+        "nochokes_embed_title": "Лучшие пофикшенные результаты {user} в {mode}",
         "nochokes_totalpp_text": "Всего PP: {old_pp}PP **➔ {new_pp}PP**",
         "compare_no_scores": "У `{user}` нет результата(ов) на {artist} - {title} [{version}] на {server}.",
         "compare_embed_title": "Все результаты в {mode} для {user} на {artist} - {title} [{version}]",
@@ -90,7 +91,9 @@
     "moderation" : {
         "set_prefix_error": "Префикс может состоять из 5 символов или меньше.",
         "set_prefix_success": "Префикс установлен на `{prefix}`",
-        "steal_emoji_success": "Емоджи {emoji} было создано."
+        "steal_emoji_success": "Емоджи {emoji} было создано.",
+        "set_language_error": "Должен быть выбран один из предложенных языков: en, de, fr, jp, pl, ru",
+        "set_language_success": "Язык сервера был установлен на Русский!"
     },
     "info": {
         "prefix_text": "Мой префикс: `{prefix}`",
