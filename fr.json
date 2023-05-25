@@ -86,7 +86,7 @@
         "set_prefix_error": "Le préfixe ne peut être que de 5 caractères ou moins.",
         "set_prefix_success": "Préfix changé pour `{prefix}`",
         "steal_emoji_success": "Émoji {emoji} a été crée.",
-        "set_language_error": "La langue choisie doit être une des suivantes: en, de, fr, jp, pl, ru",
+        "set_language_error": "La langue choisie doit être une des suivantes: en, de, fr, jp, pl, ru, id",
         "set_language_success": "La langue du serveur a été changé pour le Français!"
     },
     "info": {

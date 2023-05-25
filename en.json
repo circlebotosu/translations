@@ -92,7 +92,7 @@
         "set_prefix_error": "Prefixes can only be 5 characters or less.",
         "set_prefix_success": "Prefix set to `{prefix}`",
         "steal_emoji_success": "Emoji {emoji} has been created.",
-        "set_language_error": "Language must be one of the following: en, de, fr, jp, pl, ru",
+        "set_language_error": "Language must be one of the following: en, de, fr, jp, pl, ru, id",
         "set_language_success": "Server language has been set to English!"
     },
     "info": {

@@ -92,7 +92,7 @@
         "set_prefix_error": "Префикс может состоять из 5 символов или меньше.",
         "set_prefix_success": "Префикс установлен на `{prefix}`",
         "steal_emoji_success": "Емоджи {emoji} было создано.",
-        "set_language_error": "Должен быть выбран один из предложенных языков: en, de, fr, jp, pl, ru",
+        "set_language_error": "Должен быть выбран один из предложенных языков: en, de, fr, jp, pl, ru, id",
         "set_language_success": "Язык сервера был установлен на Русский!"
     },
     "info": {
