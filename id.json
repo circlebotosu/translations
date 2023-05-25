@@ -27,7 +27,7 @@
         "set_server_not_found": "Server `{server}` tidak ditemukan.",
         "set_configure_server": "Mengatur: Default osu! Server",
         "set_server_success": "✅ **{author}, your default osu! server has been set to `{server}`**",
-        "set_configure_mode": "Configure: Mode osu! Utama",
+        "set_configure_mode": "Mengatur: Mode osu! Utama",
         "set_mode_success": "✅ **{author}, mode osu! utama berhasil diubah ke`{mode}`**",
         "set_mode_error": "Mode tidak sesuai.\nMode yang sesuai:\n`0` - osu!std\n`1` - osu!taiko\n`2` - osu!catch\n`3` - osu!mania",
         "profile_embed_title": "Profil {mode} {user}",
@@ -77,16 +77,16 @@
         "avg_embed_title": "Rata-rata top 100 {user} di {server}.",
         "avg_pp_text": "PP:        Min: {min}pp    Avg: {avg}pp    Max: {max}pp\n",
         "avg_combo_text": "Combo:     Min: {min}x    Avg: {avg}x    Max: {max}x\n",
-        "avg_length_text": "Length:     Min: {min}    Avg: {avg}    Max: {max}\n",
-        "avg_acc_text": "Accuracy:     Min: {min}%    Avg: {avg}%    Max: {max}%\n",
+        "avg_length_text": "Durasi:     Min: {min}    Avg: {avg}    Max: {max}\n",
+        "avg_acc_text": "Akurasi:     Min: {min}%    Avg: {avg}%    Max: {max}%\n",
         "avg_bpm_text": "BPM:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_ar_text": "AR:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_od_text": "OD:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_hp_text": "HP:     Min: {min}    Avg: {avg}    Max: {max}\n",
         "avg_cs_text": "CS:     Min: {min}    Avg: {avg}    Max: {max}\n",
-        "avg_misses_text": "Misses:     Min: {min}    Avg: {avg}    Max: {max}\n",
-        "avg_stars_text": "Stars:     Min: {min}    Avg: {avg}    Max: {max}\n",
-        "avg_ppforfc_text": "PP for FC:     Min: {min}pp    Avg: {avg}pp    Max: {max}pp\n"
+        "avg_misses_text": "Miss:     Min: {min}    Avg: {avg}    Max: {max}\n",
+        "avg_stars_text": "Bintang:     Min: {min}    Avg: {avg}    Max: {max}\n",
+        "avg_ppforfc_text": "PP untuk FC:     Min: {min}pp    Avg: {avg}pp    Max: {max}pp\n"
 
     },
     "moderation" : {
