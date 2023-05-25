@@ -93,7 +93,7 @@
         "set_prefix_error": "Prefix hanya bisa 5 karakter atau kurang",
         "set_prefix_success": "Prefix diubah ke `{prefix}`",
         "steal_emoji_success": "Emoji {emoji} berhasil dibuat.",
-        "set_language_error": "Bahasa harus dari: en, de, fr, jp, pl, ru, id",
+        "set_language_error": "Bahasa harus dari: {languages}",
         "set_language_success": "Bahasa server berhasil diubah ke English!"
 
     },

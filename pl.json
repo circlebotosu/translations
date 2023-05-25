@@ -92,7 +92,7 @@
         "set_prefix_error": "Prefixy mogą mieć tylko 5 znaczków lub mniej.",
         "set_prefix_success": "Prefix ustawiony na `{prefix}`",
         "steal_emoji_success": "Emoji {emoji} zostało utworzone.",
-        "set_language_error": "Język musi być jednym z podanych: en, de, fr, jp, pl, ru, id",
+        "set_language_error": "Język musi być jednym z podanych: {languages}",
         "set_language_success": "Język serwera ustawiony na Polski!"
     },
     "info": {

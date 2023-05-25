@@ -86,7 +86,7 @@
     	"set_prefix_error": "プレフィックスは5文字以下である必要があります。",
     	"set_prefix_success": "プレフィックスが`{prefix}`に設定されました。",
     	"steal_emoji_success": "絵文字{emoji}が作成されました。",
-    	"set_language_error": "言語は以下のいずれかでなければなりません：en, de, fr, jp, pl, ru, id",
+    	"set_language_error": "言語は以下のいずれかでなければなりません：{languages}",
     	"set_language_success": "サーバーの言語が日本語に設定されました！"
     },
 	"info": {

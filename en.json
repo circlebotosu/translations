@@ -1,6 +1,7 @@
 {
     "bombparty": {
         "start": "Starting game...",
+        "join_prompt": "React with ✅ to join the game.",
         "no_players": "No one joined.",
         "player_joined": "<@{player}> joined the game!",
         "player_left": "<@{player}> left the game.",
@@ -10,6 +11,14 @@
         "player_hplost": "<@{player}> **lost 1 HP!**",
         "words_list": "Here are some words you could've used: {words}",
         "words_used": "This word has already been used!",
+        "game_alreadyrunning": "There's already a game running in this channel!",
+        "game_notfound": "There is no game running in this channel!",
+        "game_nothost": "You're not the host of this game!",
+        "game_joinerror": "You've either left the game or have gotten eliminated, and therefore cannot re-join.",
+        "game_alreadyjoined": "You've already joined the game!",
+        "game_notjoined": "You aren't in the game!",
+        "game_locked": "The game is locked.",
+        "game_languageset": "Language set to English!",
         "game_winner": "🏆🏆🏆 <@{player}> **won the game!!!** 🏆🏆🏆\nThe game went on for: **{rounds}** rounds.",
         "game_nowinner": "🏆🏆🏆 **No one won the game..?** 🏆🏆🏆\nThe game went on for: **{rounds}** rounds."
     },
@@ -92,7 +101,7 @@
         "set_prefix_error": "Prefixes can only be 5 characters or less.",
         "set_prefix_success": "Prefix set to `{prefix}`",
         "steal_emoji_success": "Emoji {emoji} has been created.",
-        "set_language_error": "Language must be one of the following: en, de, fr, jp, pl, ru, id",
+        "set_language_error": "Language must be one of the following: {languages}",
         "set_language_success": "Server language has been set to English!"
     },
     "info": {
