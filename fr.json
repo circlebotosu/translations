@@ -52,6 +52,7 @@
         "recent_no_scores": "`{user}` n'a pas de score(s) récent dans {server}.",
         "recent_map_deleted": "Beatmap pas trouvé.\nPeut-être elle a été suprimé?",
         "recent_embed_title": "**Score {mode} récent pour {user}:**",
+        "recent_embed_title_best": "**Top {idx} score {mode} pour {user}:**",
         "recent_embed_footer": "Tentative #{tries} • Sur {server} • Score {idx} de {total}",
         "top_no_scores": "`{user}` n'a pas de meilleures performances dans {server}.",
         "top_search_fail": "Aucun score trouvé avec le(s) mot(s) clé(s) `{search}`.",
