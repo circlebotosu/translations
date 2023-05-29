@@ -52,6 +52,7 @@
         "recent_no_scores": "`{user}` has no recent score(s) in {server}.",
         "recent_map_deleted": "Beatmap not found.\nMaybe the map was deleted?",
         "recent_embed_title": "**Recent {mode} play for {user}:**",
+        "recent_embed_title_best": "**Top {idx} {mode} play for {user}:**",
         "recent_embed_footer": "Try #{tries} • On {server} • Score {idx} of {total}",
         "top_no_scores": "`{user}` has no top score(s) in {server}.",
         "top_search_fail": "No scores found with the keyword(s) `{search}`.",
