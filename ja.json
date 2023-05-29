@@ -1,6 +1,7 @@
 {
     "bombparty": {
     	"start": "試合開始...",
+	"join_prompt": "ゲームに参加するには✅を押してください。",
     	"no_players": "誰も参加しなかった.",
     	"player_joined": "<@{player}>がゲームに参加しました！",
     	"player_left": "<@{player}>がゲームから離れた.",
@@ -10,7 +11,15 @@
     	"player_hplost": "<@{player}>の**HPが1減少しました!**",
     	"words_list": "使えたはずの言葉: {words}",
     	"words_used": "この言葉はすでに使われています！",
-    	"game_winner": "🏆🏆🏆 <@{player}>が**試合に勝った!!!** 🏆🏆🏆\nこのゲームは**{rounds}**ラウンドありました.",
+        "game_alreadyrunning": "このチャンネルで既に試合が進行中です！",
+        "game_notfound": "このチャンネルで試合が見つかりません！",
+        "game_nothost": "あなたはこの試合のホストではありません！",
+        "game_joinerror": "試合から退出したか、敗退したため、再参加できません。",
+        "game_alreadyjoined": "既に試合に参加しています！",
+        "game_notjoined": "試合に参加していません！",
+        "game_locked": "試合はロックされています。",
+        "game_languageset": "日本語に設定されました！",
+	"game_winner": "🏆🏆🏆 <@{player}>が**試合に勝った!!!** 🏆🏆🏆\nこのゲームは**{rounds}**ラウンドありました.",
     	"game_nowinner": "🏆🏆🏆 **試合の無冠.** 🏆🏆🏆\nこのゲームは**{rounds}**ラウンドありました"
     },
     "osu": {
@@ -43,6 +52,7 @@
     	"recent_no_scores": "{server}で`{user}`の最近のスコアはありません。",
     	"recent_map_deleted": "ビートマップが見つかりません。\nおそらくマップが削除されましたか？",
     	"recent_embed_title": "**{user}の最近の{mode}プレイ:**",
+	"recent_embed_title_best": "**{user}の{idx}位のトッププレイを{mode}:**",
     	"recent_embed_footer": "試行#{tries} • {server}で • スコア {idx}/{total}",
     	"top_no_scores": "{server}で`{user}`のトップスコアはありません。",
     	"top_search_fail": "キーワード`{search}`でスコアが見つかりませんでした。",
