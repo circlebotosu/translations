@@ -52,7 +52,7 @@
     	"recent_no_scores": "{server}で`{user}`の最近のスコアはありません。",
     	"recent_map_deleted": "ビートマップが見つかりません。\nおそらくマップが削除されましたか？",
     	"recent_embed_title": "**{user}の最近の{mode}プレイ:**",
-		"recent_embed_title_best": "**{user}のトップ{idx}位のプレイで:**",
+		"recent_embed_title_best": "**{user}の{idx}位のトッププレイを{mode}:**",
     	"recent_embed_footer": "試行#{tries} • {server}で • スコア {idx}/{total}",
     	"top_no_scores": "{server}で`{user}`のトップスコアはありません。",
     	"top_search_fail": "キーワード`{search}`でスコアが見つかりませんでした。",
