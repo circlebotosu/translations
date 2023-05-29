@@ -1,6 +1,7 @@
 {
     "bombparty": {
         "start": "Commencement du jeu...",
+        "join_prompt": "Réagis avec ✅ pour rejoindre la partie.",
         "no_players": "Personne n'a rejoint.",
         "player_joined": "<@{player}> a rejoint la partie!",
         "player_left": "<@{player}> a quitté la partie.",
@@ -10,6 +11,14 @@
         "player_hplost": "<@{player}> **a perdu 1 HP!**",
         "words_list": "Liste de mots que tu pouvais utiliser: {words}",
         "words_used": "Ce mot a déjà été utilisé!",
+        "game_alreadyrunning": "Il y a déjà une partie en cours sur ce chat!",
+        "game_notfound": "Il n'y a pas de jeu en cours sur ce chat!",
+        "game_nothost": "Tu n'es pas l'hôte de cette partie!",
+        "game_joinerror": "Tu as soit quitté la partie soit été éliminé, et ne peut donc pas rejoindre.",
+        "game_alreadyjoined": "Tu as déjà rejoint la partie!",
+        "game_notjoined": "Tu n'es pas dans cette partie!",
+        "game_locked": "La partie est fermée.",
+        "game_languageset": "Langue changé pour le Français!",
         "game_winner": "🏆🏆🏆 <@{player}> **a remporté(e) la partie!** 🏆🏆🏆\nLe jeu a duré: **{rounds}** tours.",
         "game_nowinner": "🏆🏆🏆 **Personne n'a remporté la partie..?** 🏆🏆🏆\nLe jeu a duré: **{rounds}** tours."
     },

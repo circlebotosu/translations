@@ -1,6 +1,7 @@
 {
     "bombparty": {
         "start": "Rozpoczynanie gry...",
+        "join_prompt": "Zareaguj z ✅ aby dołączyć do gry.",
         "no_players": "Nikt nie dołączył.",
         "player_joined": "<@{player}> dołączył do gry!",
         "player_left": "<@{player}> opuścił grę.",
@@ -10,6 +11,14 @@
         "player_hplost": "<@{player}> **stracił(a) 1 HP!**",
         "words_list": "Lista słów których mogłeś/aś użyć: {words}",
         "words_used": "To słowo zostało już użyte!",
+        "game_alreadyrunning": "W tym kanale odbywa się już gra!",
+        "game_notfound": "W tym kanale nie odbywa się żadna gra!",
+        "game_nothost": "Nie jesteś hostem tej gry!",
+        "game_joinerror": "Wyszedłeś/aś z gry lub zostałeś/aś wyeliminowany/a, więc nie możesz dołączyć ponownie.",
+        "game_alreadyjoined": "Juz dołączyłeś/aś do gry!",
+        "game_notjoined": "Nie jesteś w grze!",
+        "game_locked": "Gra jest zablokowana.",
+        "game_languageset": "Język ustawiony na polski!",
         "game_winner": "🏆🏆🏆 <@{player}> **wygrał(a) grę!** 🏆🏆🏆\nGra trwała: **{rounds}** rund.",
         "game_nowinner": "🏆🏆🏆 **Nikt nie wygrał gry..?** 🏆🏆🏆\nGra trwała: **{rounds}** rund."
     },
