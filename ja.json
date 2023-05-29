@@ -18,7 +18,7 @@
         "game_alreadyjoined": "既に試合に参加しています！",
         "game_notjoined": "試合に参加していません！",
         "game_locked": "試合はロックされています。",
-        "game_languageset": "日本語に設定されました！",     	
+        "game_languageset": "日本語に設定されました！",
 		"game_winner": "🏆🏆🏆 <@{player}>が**試合に勝った!!!** 🏆🏆🏆\nこのゲームは**{rounds}**ラウンドありました.",
     	"game_nowinner": "🏆🏆🏆 **試合の無冠.** 🏆🏆🏆\nこのゲームは**{rounds}**ラウンドありました"
     },
