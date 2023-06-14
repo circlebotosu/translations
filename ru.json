@@ -77,7 +77,7 @@
         "map_combo_text": "**▸ Максимальное комбо:** {combo}x\n",
         "map_status_text": "{status} c {timestamp}",
         "map_last_updated": "Последнее обновление на {timestamp}",
-        "map_pp_calc": "PP расчитано используя {server}'s pp систему.",
+        "map_pp_calc": "PP расчитано используя pp систему {server}.",
         "whatif_pp_error": "PP должно быть больше 0.",
         "whatif_embed_title": "Что если {user} получил {pp}PP результат на {name}?",
         "whatif_time_waste": "Результат в `{pp}pp` (`{weighted_pp}`pp засчитано) для {user} не будет лучшим результат и скорее всего будет просто потерей его времени.",
