@@ -50,11 +50,7 @@
         "profile_info_joined": "Дата регистрации: {date}\n",
         "profile_info_lastseen": "Последний раз в сети: {date}\n",
         "recent_no_scores": "У `{user}` нет недавнего результата(ов) на {server}.",
-<<<<<<< HEAD
-        "recent_beatmap_deleted": "Карта не найдена.\nВозможно карта была удалена?",
-=======
         "recent_map_deleted": "Карта не найдена.\nВозможно карта была удалена.",
->>>>>>> 3ed7764d1e9f054410ec262a7ccc329819474e43
         "recent_embed_title": "**Недавний {mode} результат для {user}:**",
         "recent_embed_title_best": "**Лучший {idx} {mode} результат для {user}:**",
         "recent_embed_footer": "Попытка #{tries} • На {server} • Результат {idx} из {total}",
