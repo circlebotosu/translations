@@ -57,7 +57,7 @@
         "top_no_scores": "`{user}` nie ma najlepszych wyników na {server}.",
         "top_search_fail": "Nie znaleziono wyników z słowami `{search}`.",
         "top_greater_than": "`{user}` ma {scores} wynik(ów) wartych więcej niż {greater_than}pp.",
-        "top_embed_title": "Najlepsze wyniki z {mode} dla {user}:",
+        "top_embed_title": "Najlepsze wyniki z {mode} dla {user}",
         "top_embed_footer": "Na {server} • Strona {page} z {total_pages}",
         "top_timestamp_text": "▸ Wynik ustawiony <t:{timestamp}:R> ",
         "top_search_text": "Szukaj: `{search}`",

@@ -47,7 +47,7 @@
         "top_no_scores": "`{user}` hat keine besten Spiele auf {server}.",
         "top_search_fail": "Kein Spiel mit folgenden Suchbegriffen gefunden: `{search}`.",
         "top_greater_than": "`{user}` hat {scores} Spiele vom Wert {greater_than}pp oder höher.",
-        "top_embed_title": "Beste {mode} Spiele für {user}:",
+        "top_embed_title": "Beste {mode} Spiele für {user}",
         "top_embed_footer": "Auf {server} • Seite {page} von {total_pages}",
         "top_timestamp_text": "▸ Gespielt am <t:{timestamp}:R> ",
         "top_search_text": "Suche: `{search}`",

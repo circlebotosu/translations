@@ -57,7 +57,7 @@
         "top_no_scores": "`{user}` has no top score(s) in {server}.",
         "top_search_fail": "No scores found with the keyword(s) `{search}`.",
         "top_greater_than": "`{user}` has {scores} score(s) worth more than {greater_than}pp.",
-        "top_embed_title": "Top {mode} plays for {user}:",
+        "top_embed_title": "Top {mode} plays for {user}",
         "top_embed_footer": "On {server} • Page {page} of {total_pages}",
         "top_timestamp_text": "▸ Score Set <t:{timestamp}:R> ",
         "top_search_text": "Search: `{search}`",

@@ -47,7 +47,7 @@
         "top_no_scores": "`{user}` tidak memiliki top play di {server}.",
         "top_search_fail": "Tidak menemukan skor dengan kata kunci `{search}`.",
         "top_greater_than": "`{user}` memiliki {scores} skor di atas {greater_than}pp.",
-        "top_embed_title": "Skor {mode} tertinggi untuk {user}:",
+        "top_embed_title": "Skor {mode} tertinggi untuk {user}",
         "top_embed_footer": "Di {server} • Halaman {page} dari {total_pages}",
         "top_timestamp_text": "▸ Skor dibuat <t:{timestamp}:R> ",
         "top_search_text": "Cari: `{search}`",

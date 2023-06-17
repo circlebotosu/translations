@@ -57,7 +57,7 @@
         "top_no_scores": "{server}で`{user}`のトップスコアはありません。",
         "top_search_fail": "キーワード`{search}`でスコアが見つかりませんでした。",
         "top_greater_than": "`{user}`は{greater_than}pp以上のスコア{scores}を持っています。",
-        "top_embed_title": "{user}のトップ{mode}プレイ:",
+        "top_embed_title": "{user}のトップ{mode}プレイ",
         "top_embed_footer": "{server}で • ページ {page}/{total_pages}",
         "top_timestamp_text": "▸ スコアセット <t:{timestamp}:R> ",
         "top_search_text": "検索: `{search}`",
