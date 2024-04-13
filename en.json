@@ -49,7 +49,7 @@
         "profile_info_tab": "general info",
         "profile_info_joined": "account created: {date}\n",
         "profile_info_lastseen": "last seen: {date}\n",
-        "recent_no_scores": "`{user}` has no recent score(s) in {server}.",
+        "recent_no_scores": "`{user}` has no recent scores on {server}.",
         "recent_map_deleted": "Beatmap not found.\nMaybe the map was deleted?",
         "recent_embed_title": "**Recent {mode} play for {user}:**",
         "recent_embed_title_best": "**Top {idx} {mode} play for {user}:**",
