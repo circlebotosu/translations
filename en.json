@@ -7,12 +7,13 @@
     },
     "osu": {
         "common": {
+            "comment": "This is used only in 'User ID 1234 not found on server.'",
             "user_id": "User ID",
             "not_found": "`{identifier}` not found on **{server}**.",
             "no_beatmap": ":x: No beatmap found in conversation.",
             "no_beatmap_link": ":x: Please provide a beatmap link.",
             "no_beatmap_link_or_file": ":x: Please provide a beatmap link/file.",
-            "comment": "version is just the difficulty name.",
+            "comment2": "version is just the difficulty name.",
             "beatmap": "{artist} - {title} [{version}]",
             "beatmap_creator": "{artist} - {title} [{version}] by {creator}",
             "no_score_index": "No score found at `#{index}`.",
