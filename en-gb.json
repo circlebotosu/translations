@@ -18,7 +18,7 @@
             "no_score_index": "No score found at `#{index}`.",
             "no_scores_page": "No scores found on page `{page}`.",
             "performance": "pp",
-            "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC",
+            "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC)",
             "replay": "Replay",
             "footer": "On {server}",
             "footer_pages": "On {server} • Page {page}/{max_pages}",
@@ -39,13 +39,13 @@
         "profile": {
             "title": "{username}'s {mode} profile",
             "performance_tab": "performance",
-            "performance": "pp: **{pp}**\n",
-            "accuracy": "accuracy: **{accuracy}%**\n",
-            "global_rank": "global rank: {rank}\n",
-            "play_count": "play count: **{play_count}**\n",
+            "performance": "pp: **{pp}**",
+            "accuracy": "accuracy: **{accuracy}%**",
+            "global_rank": "global rank: {rank}",
+            "play_count": "play count: **{play_count}**",
             "info_tab": "general info",
-            "account_created": "account created: **{account_created}**\n",
-            "last_seen": "last seen: **{last_seen}**\n"
+            "account_created": "account created: {account_created}",
+            "last_seen": "last seen: {last_seen}"
         },
         "recent": {
             "title": "**Recent {mode} play for {username}:**",
@@ -53,7 +53,7 @@
             "no_scores": "`{username}` has no recent scores on **{server}** ({mode}).",
             "no_best_scores": "`{username}` has no recent best scores on **{server}** ({mode}).",
             "beatmap_not_found": "Beatmap not found.\nMaybe it was deleted?",
-            "footer": "Try #{tries} • On {server} • Score {score}/{max_scores}"
+            "footer": "Try #{tries} • On {server} • Score {score}/{total}"
         },
         "top": {
             "title": "Top {mode} plays for {username}",
