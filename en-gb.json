@@ -1,0 +1,120 @@
+{
+    "comment": "Please avoid modifying, anything within {} (ex. {server}), along with ``, and ::.",
+    "comment2": "Please also remove any comments you see.",
+
+    "global": {
+        "processing_time": "Processing time: {time}s"
+    },
+    "osu": {
+        "common": {
+            "user_id": "User ID",
+            "not_found": "`{identifier}` not found on **{server}**.",
+            "no_beatmap": ":x: No beatmap found in conversation.",
+            "no_beatmap_link": ":x: Please provide a beatmap link.",
+            "no_beatmap_link_or_file": ":x: Please provide a beatmap link/file.",
+            "comment": "version is just the difficulty name.",
+            "beatmap": "{artist} - {title} [{version}]",
+            "beatmap_creator": "{artist} - {title} [{version}] by {creator}",
+            "no_score_index": "No score found at `#{index}`.",
+            "no_scores_page": "No scores found on page `{page}`.",
+            "performance": "pp",
+            "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC",
+            "replay": "Replay",
+            "footer": "On {server}",
+            "footer_pages": "On {server} • Page {page}/{max_pages}",
+            "pp_too_small": ":x: PP cannot be less than 1."
+        },
+        "link": {
+            "no_option": "No option provided.",
+            "invalid_option": "Invalid option `{option}`. (user/name/username, server, mode)",
+            "configure_username": "Configure: {server} Username",
+            "username_success": ":white_check_mark: **{discord_name}, your {server} username has been set to {username}**.",
+            "configure_server": "Configure: Default osu! Server",
+            "server_not_found": "Server `{server}` not found.",
+            "server_success": ":white_check_mark: **{discord_name}, your default osu! server has been set to {server}**.",
+            "configure_mode": "Configure: Default osu! Mode",
+            "invalid_mode": "Invalid mode `{mode}`. (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
+            "mode_success": ":white_check_mark: **{discord_name}, your default osu! mode has been set to {mode}**."
+        },
+        "profile": {
+            "title": "{username}'s {mode} profile",
+            "performance_tab": "performance",
+            "performance": "pp: **{pp}**\n",
+            "accuracy": "accuracy: **{accuracy}%**\n",
+            "global_rank": "global rank: {rank}\n",
+            "play_count": "play count: **{play_count}**\n",
+            "info_tab": "general info",
+            "account_created": "account created: **{account_created}**\n",
+            "last_seen": "last seen: **{last_seen}**\n"
+        },
+        "recent": {
+            "title": "**Recent {mode} play for {username}:**",
+            "title_best": "**Top {score} {mode} play for {username}:**",
+            "no_scores": "`{username}` has no recent scores on **{server}** ({mode}).",
+            "no_best_scores": "`{username}` has no recent best scores on **{server}** ({mode}).",
+            "beatmap_not_found": "Beatmap not found.\nMaybe it was deleted?",
+            "footer": "Try #{tries} • On {server} • Score {score}/{max_scores}"
+        },
+        "top": {
+            "title": "Top {mode} plays for {username}",
+            "no_scores":"`{username}` has no best scores on **{server}** ({mode})",
+            "no_scores_search": "or no scores found for keyword(s) `{search}`",
+            "no_scores_mods": "or no scores found with mods `{mods}`",
+            "greater_than": "`{username}` has **{scores}** score(s) greater than {pp}pp.",
+            "score_set": "Score Set",
+            "search": "Search: `{search}` (found **{scores}** score(s))",
+            "sort": "Sort: {sort}",
+            "mods": "Mods: {mods}",
+            "mods_exact": "Exact Mods: {mods}"
+        },
+        "compare": {
+            "title": "All {mode} plays for {username} on {beatmap}",
+            "no_scores": "`{username}` has no scores on **{server}** for {beatmap}."
+        },
+        "simulate": {
+            "no_beatmap_replay": ":x: Failed to find the beatmap of the replay.",
+            "calculate_hits_failed": ":x: Failed to calculate hits."
+        },
+        "beatmap": {
+            "no_scores": "No scores found for {beatmap}.",
+            "leaderboard_miss": "{misses}xMiss",
+            "leaderboard_title": "Leaderboard for {beatmap}",
+            "approach_rate": "**▸ AR:** {ar}",
+            "overall_difficulty": "**▸ OD:** {od}",
+            "hp_drain": "**▸ HP:** {hp}",
+            "circle_size": "**▸ CS:** {cs}",
+            "mania_keys": "**▸ Keys:** {keys}",
+            "map_tab": "**__map__**",
+            "length": "**▸ Length:** {length}",
+            "bpm": "**▸ BPM:** {bpm}",
+            "mods": "**▸ Mods:** {mods}",
+            "download": "**Download**: {mirrors}",
+            "difficulty": "**Difficulty:** {stars}",
+            "max_combo": "**Max Combo:** {max_combo}",
+            "info_tab": "**__info__**",
+            "status": "**▸ Status:** {status}",
+            "pp_tab": "**__pp__**",
+            "footer": "Performance calculated using {server}'s pp system."
+        },
+        "nochokes": {
+            "no_chokes": "`{username}` has no chokes on **{server}**.",
+            "title": "Top non-choked {mode} plays for {username}",
+            "total_pp": "Total PP: {pp:.2f}pp ➔ **{new_pp:.2f}pp** (+{pp_gain})"
+        },
+        "whatif": {
+            "comment": "XD",
+            "pp_too_large": ":x: In what universe are you getting that much pp?",
+            "title": "What if {user.name} got {count} {pp}pp play(s) on {server}?",
+            "single_info": "A score of `{pp}pp` (`{pp_weighted}pp` weighted) for {username}",
+            "waste_of_time": "would not be a top play and they would most likely be just wasting their time.",
+            "single_details": "would be their #{score} top play",
+            "multi_info": "{count} `{pp}pp` scores for {username}",
+            "pp_gain": "and increase their total pp to {pp} (+{pp_gain}pp)."
+        },
+        "pp": {
+            "title": "How much pp {username} needs to get {pp}pp?",
+            "single_score": "In order to get {pp}pp with one additional score, {username} would need to set a score worth at least `{pp_required}`pp (`{pp_weighted}`pp weighted, which would be their #{score} top play.",
+            "multi_score": "In order to get {pp}pp with {count} additional scores, {username} would need to set {count} scores worth at least `{pp_required}`pp."
+        }
+    }
+}
