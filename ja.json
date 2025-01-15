@@ -1,13 +1,9 @@
 {
-    "comment": "波括弧内の内容（例：{server}）、``、および::を変更しないでください。",
-    "comment2": "また、見かけたコメントはすべて削除してください。",
-
     "global": {
         "processing_time": "処理時間: {time}秒"
     },
     "osu": {
         "common": {
-            "comment": "これは「サーバーにユーザーID 1234が見つかりません。」のみに使用されます。",
             "user_id": "ユーザーID",
             "not_found": "`{identifier}`が**{server}**に見つかりませんでした。",
             "no_beatmap": ":x: 会話にビートマップが見つかりません。",
@@ -15,7 +11,7 @@
             "no_beatmap_link_or_file": ":x: ビートマップのリンク/ファイルを提供してください。",
             "comment2": "バージョンは難易度名です。",
             "beatmap": "{artist} - {title} [{version}]",
-            "beatmap_creator": "{artist} - {title} [{version}] by {creator}",
+            "beatmap_creator": "{artist} - {title} [{version}] で {creator}",
             "no_score_index": "`#{index}`にスコアが見つかりません。",
             "no_scores_page": "`{page}`ページにスコアが見つかりません。",
             "performance": "pp",
@@ -103,7 +99,6 @@
             "total_pp": "合計PP: {pp:.2f}pp ➔ **{new_pp:.2f}pp** (+{pp_gain})"
         },
         "whatif": {
-            "comment": "XD",
             "pp_too_large": ":x: どの宇宙でそんなに多くのppを取得するのですか？",
             "title": "{user.name}が{server}で{count} {pp}ppプレイを取得した場合はどうなりますか？",
             "single_info": "{username}の`{pp}pp` (`{pp_weighted}pp` 加重)のスコア",
