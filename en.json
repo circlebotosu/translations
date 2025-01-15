@@ -113,8 +113,8 @@
             "comment3": "these are just added onto multi/single info.",
             "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
             "single_details": " would be their #{score} top play",
-            "pp_gain_single": " and increase their total pp to {pp} (+{pp_gain}pp).",
-            "pp_gain_multi": " would increase their total pp to {pp} (+{pp_gain}pp)."
+            "pp_gain_single": " and increase their total pp to {pp}pp (+{pp_gain}pp).",
+            "pp_gain_multi": " would increase their total pp to {pp}pp (+{pp_gain}pp)."
         },
         "pp": {
             "title": "How much pp {username} needs to get {pp}pp?",

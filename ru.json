@@ -100,13 +100,13 @@
         },
         "whatif": {
             "pp_too_large": ":x: В какой вселенной ты получишь так много пп?",
-            "title": "Что если {user.name} получит {count} {pp}пп скор(а/ов) на {server}?",
+            "title": "Что если {username} получит {count} {pp}пп скор(а/ов) на {server}?",
             "single_info": "Скор в `{pp}pp` (`{pp_weighted}pp` засчитано) для {username}",
             "multi_info": "{count} `{pp}pp` скора(ов) для {username}",
             "waste_of_time": " не будет топ-плеем, и они, скорее всего, просто зря потратят время.",
-            "single_details": " Будет их #{score} топ-плей",
-            "pp_gain_single": " и увеличит их общее количество пп до {pp} (+{pp_gain}pp).",
-            "pp_gain_multi": " увеличит их общее количество пп до {pp} (+{pp_gain}pp)."
+            "single_details": " будет их #{score} топ-плей",
+            "pp_gain_single": " и увеличит их общее количество пп до {pp}pp (+{pp_gain}pp).",
+            "pp_gain_multi": " увеличит их общее количество пп до {pp}pp (+{pp_gain}pp)."
         },
         "pp": {
             "title": "Сколько пп нужно {username}, чтобы получить {pp}пп?",
