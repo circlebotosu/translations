@@ -1,0 +1,116 @@
+{
+    "global": {
+        "processing_time": "処理時間: {time}秒"
+    },
+    "osu": {
+        "common": {
+            "user_id": "ユーザーID",
+            "not_found": "`{identifier}`が**{server}**に見つかりませんでした。",
+            "no_beatmap": ":x: 会話にビートマップが見つかりません。",
+            "no_beatmap_link": ":x: ビートマップのリンクを提供してください。",
+            "no_beatmap_link_or_file": ":x: ビートマップのリンク/ファイルを提供してください。",
+            "comment2": "バージョンは難易度名です。",
+            "beatmap": "{artist} - {title} [{version}]",
+            "beatmap_creator": "{artist} - {title} [{version}] で {creator}",
+            "no_score_index": "`#{index}`にスコアが見つかりません。",
+            "no_scores_page": "`{page}`ページにスコアが見つかりません。",
+            "performance": "pp",
+            "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC)",
+            "replay": "リプレイ",
+            "footer": "{server}で",
+            "footer_pages": "{server}で • ページ {page}/{max_pages}",
+            "pp_too_small": ":x: PPは1未満にできません。"
+        },
+        "link": {
+            "no_option": "オプションが提供されていません。",
+            "invalid_option": "無効なオプション `{option}`。 (user/name/username, server, mode)",
+            "configure_username": "設定: {server} ユーザー名",
+            "username_success": ":white_check_mark: **{discord_name}、あなたの{server}ユーザー名が{username}に設定されました**。",
+            "configure_server": "設定: デフォルトのosu!サーバー",
+            "server_not_found": "サーバー `{server}` が見つかりません。",
+            "server_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!サーバーが{server}に設定されました**。",
+            "configure_mode": "設定: デフォルトのosu!モード",
+            "invalid_mode": "無効なモード `{mode}`。 (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
+            "mode_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!モードが{mode}に設定されました**。"
+        },
+        "profile": {
+            "title": "{username}の{mode}プロフィール",
+            "performance_tab": "パフォーマンス",
+            "performance": "pp: **{pp}**",
+            "accuracy": "精度: **{accuracy}%**",
+            "global_rank": "グローバルランク: {rank}",
+            "play_count": "プレイ回数: **{play_count}**",
+            "info_tab": "一般情報",
+            "account_created": "アカウント作成日: {account_created}",
+            "last_seen": "最終ログイン: {last_seen}"
+        },
+        "recent": {
+            "title": "**{username}の最近の{mode}プレイ:**",
+            "title_best": "**{username}のトップ{score} {mode}プレイ:**",
+            "no_scores": "`{username}`は**{server}** ({mode})で最近のスコアがありません。",
+            "no_best_scores": "`{username}`は**{server}** ({mode})で最近のベストスコアがありません。",
+            "beatmap_not_found": "ビートマップが見つかりません。\n削除された可能性があります。",
+            "footer": "試行回数 #{tries} • {server}で • スコア {score}/{total}"
+        },
+        "top": {
+            "title": "{username}のトップ{mode}プレイ",
+            "no_scores":"`{username}`は**{server}** ({mode})でベストスコアがありません",
+            "no_scores_search": "またはキーワード `{search}` に一致するスコアが見つかりません",
+            "no_scores_mods": "またはモッド `{mods}` に一致するスコアが見つかりません",
+            "greater_than": "`{username}`は**{scores}**スコアが{pp}ppを超えています。",
+            "score_set": "スコアセット",
+            "search": "検索: `{search}` (見つかったスコア **{scores}**)",
+            "sort": "ソート: {sort}",
+            "mods": "モッド: {mods}",
+            "mods_exact": "正確なモッド: {mods}"
+        },
+        "compare": {
+            "title": "{username}の{beatmap}におけるすべての{mode}プレイ",
+            "no_scores": "`{username}`は**{server}**で{beatmap}のスコアがありません。"
+        },
+        "simulate": {
+            "no_beatmap_replay": ":x: リプレイのビートマップが見つかりませんでした。",
+            "calculate_hits_failed": ":x: ヒットの計算に失敗しました。"
+        },
+        "beatmap": {
+            "no_scores": "{beatmap}のスコアが見つかりません。",
+            "leaderboard_miss": "{misses}xミス",
+            "leaderboard_title": "{beatmap}のリーダーボード",
+            "approach_rate": "**▸ AR:** {ar}",
+            "overall_difficulty": "**▸ OD:** {od}",
+            "hp_drain": "**▸ HP:** {hp}",
+            "circle_size": "**▸ CS:** {cs}",
+            "mania_keys": "**▸ キー:** {keys}",
+            "map_tab": "**__マップ__**",
+            "length": "**▸ 長さ:** {length}",
+            "bpm": "**▸ BPM:** {bpm}",
+            "mods": "**▸ モッド:** {mods}",
+            "download": "**ダウンロード**: {mirrors}",
+            "difficulty": "**難易度:** {stars}",
+            "max_combo": "**最大コンボ:** {max_combo}",
+            "info_tab": "**__情報__**",
+            "status": "**▸ ステータス:** {status}",
+            "pp_tab": "**__pp__**",
+            "footer": "{server}のppシステムを使用してパフォーマンスを計算しました。"
+        },
+        "nochokes": {
+            "no_chokes": "`{username}`は**{server}**でチョークがありません。",
+            "title": "{username}のトップノンチョーク{mode}プレイ",
+            "total_pp": "合計PP: {pp:.2f}pp ➔ **{new_pp:.2f}pp** (+{pp_gain})"
+        },
+        "whatif": {
+            "pp_too_large": ":x: どの宇宙でそんなに多くのppを取得するのですか？",
+            "title": "{user.name}が{server}で{count} {pp}ppプレイを取得した場合はどうなりますか？",
+            "single_info": "{username}の`{pp}pp` (`{pp_weighted}pp` 加重)のスコア",
+            "waste_of_time": "トッププレイにはならず、時間の無駄になる可能性が高いです。",
+            "single_details": "それは彼らの#{score}トッププレイになります",
+            "multi_info": "{username}の{count} `{pp}pp` スコア",
+            "pp_gain": "そして彼らの合計ppを{pp} (+{pp_gain}pp)に増やします。"
+        },
+        "pp": {
+            "title": "{username}が{pp}ppを取得するにはどれくらいのppが必要ですか？",
+            "single_score": "1つの追加スコアで{pp}ppを取得するには、{username}は少なくとも`{pp_required}`pp (`{pp_weighted}`pp 加重)のスコアを設定する必要があります。それは彼らの#{score}トッププレイになります。",
+            "multi_score": "{count}つの追加スコアで{pp}ppを取得するには、{username}は少なくとも`{pp_required}`ppのスコアを{count}つ設定する必要があります。"
+        }
+    }
+}
