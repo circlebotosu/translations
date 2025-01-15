@@ -102,12 +102,10 @@
             "title": "Что если {user.name} получит {count} {pp}пп скор(а/ов) на {server}?",
             "single_info": "Скор в `{pp}pp` (`{pp_weighted}pp` засчитано) для {username}",
             "multi_info": "{count} `{pp}pp` скора(ов) для {username}",
-            "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
-            "comment3": "these are just added onto multi/single info.",
-            "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
-            "single_details": " would be their #{score} top play",
-            "pp_gain_single": " and increase their total pp to {pp} (+{pp_gain}pp).",
-            "pp_gain_multi": " would increase their total pp to {pp} (+{pp_gain}pp)."
+            "waste_of_time": " не будет топ-плеем, и они, скорее всего, просто зря потратят время.",
+            "single_details": " Будет их #{score} топ-плей",
+            "pp_gain_single": " и увеличит их общее количество пп до {pp} (+{pp_gain}pp).",
+            "pp_gain_multi": " увеличит их общее количество пп до {pp} (+{pp_gain}pp)."
         },
         "pp": {
             "title": "Сколько пп нужно {username}, чтобы получить {pp}пп?",
