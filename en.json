@@ -29,13 +29,13 @@
             "no_option": "No option provided.",
             "invalid_option": "Invalid option `{option}`. (user/name/username, server, mode)",
             "configure_username": "Configure: {server} Username",
-            "username_success": ":white_check_mark: **{discord_name}, your {server} username has been set to {username}**.",
+            "username_success": ":white_check_mark: **{discord_name}, your {server} username has been set to `{username}`**.",
             "configure_server": "Configure: Default osu! Server",
             "server_not_found": "Server `{server}` not found.",
-            "server_success": ":white_check_mark: **{discord_name}, your default osu! server has been set to {server}**.",
+            "server_success": ":white_check_mark: **{discord_name}, your default osu! server has been set to `{server}`**.",
             "configure_mode": "Configure: Default osu! Mode",
             "invalid_mode": "Invalid mode `{mode}`. (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
-            "mode_success": ":white_check_mark: **{discord_name}, your default osu! mode has been set to {mode}**."
+            "mode_success": ":white_check_mark: **{discord_name}, your default osu! mode has been set to `{mode}`**."
         },
         "profile": {
             "title": "{username}'s {mode} profile",
