@@ -1,0 +1,115 @@
+{
+    "global": {
+        "processing_time": "Время обработки: {time}s"
+    },
+    "osu": {
+        "common": {
+            "user_id": "ID Пользователя",
+            "not_found": "`{identifier}` не был найден на **{server}**.",
+            "no_beatmap": ":x: Карта не была найдена в чате.",
+            "no_beatmap_link": ":x: Пожалуйста, предоставьте ссылку на карту.",
+            "no_beatmap_link_or_file": ":x: Пожалуйста, предоставьте ссылку на карту/файл.",
+            "beatmap": "{artist} - {title} [{version}]",
+            "beatmap_creator": "{artist} - {title} [{version}] от {creator}",
+            "no_score_index": "Скоры не были найдены на `#{index}` месте.", 
+            "no_scores_page": "Скоры не были найдены на `{page}` странице.",
+            "performance": "пп",
+            "performance_for_fc": "/{pp_for_fc}пп ({acc_for_fc}% ФК)",
+            "replay": "Реплей",
+            "footer": "На {server}",
+            "footer_pages": "На {server} • Страница {page}/{max_pages}",
+            "pp_too_small": ":x: ПП не может быть меньше 1."
+        },
+        "link": {
+            "no_option": "Аргументы не предоставлены.",
+            "invalid_option": "Неверный аргумент `{option}`. (user/name/username, server, mode)",
+            "configure_username": "Конфигурация: Имя пользователя на {server} ",
+            "username_success": ":white_check_mark: **{discord_name}, ваш никнейм на {server} был изменен на {username}**.",
+            "configure_server": "Конфигурация: osu! Сервер по умолчанию",
+            "server_not_found": "Сервер `{server}` Не был найден.",
+            "server_success": ":white_check_mark: **{discord_name}, Ваш osu! сервер по умолчанию был изменен на {server}**.",
+            "configure_mode": "Конфигурация: Режим osu! по умолчанию",
+            "invalid_mode": "Неверный режим `{mode}`. (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
+            "mode_success": ":white_check_mark: **{discord_name}, Ваш режим osu! по умолчанию был изменен на {mode}**."
+        },
+        "profile": {
+            "title": "{username} {mode} профиль",
+            "performance_tab": "Статистика",
+            "performance": "пп: **{pp}**",
+            "accuracy": "точность: **{accuracy}%**",
+            "global_rank": "глобальный ранк: {rank}",
+            "play_count": "количество игр: **{play_count}**",
+            "info_tab": "основная информация",
+            "account_created": "дата создания аккаунта: {account_created}",
+            "last_seen": "последний раз в онлайне: {last_seen}"
+        },
+        "recent": {
+            "title": "**Недавний {mode} скор для {username}:**",
+            "title_best": "**Топ {score} {mode} скор для {username}:**",
+            "no_scores": "`{username}` не имеет недавних скоров на **{server}** ({mode}).",
+            "no_best_scores": "`{username}` не имеет недавних лучших скоров на **{server}** ({mode}).",
+            "beatmap_not_found": "Карта не была найдена.\nВозможно она была удалена?",
+            "footer": "Попытка #{tries} • На {server} • Скор {score}/{total}"
+        },
+        "top": {
+            "title": "Топ {mode} скоры для {username}",
+            "no_scores":"У `{username}` нет лучших скоров на **{server}** ({mode})",
+            "no_scores_search": "или результаты не были найдены по ключевому(ым) слову(ам)`{search}`",
+            "no_scores_mods": "или результаты не были найдены с модами `{mods}`",
+            "greater_than": "`{username}` имеет **{scores}** скор(а/ов) больше чем {pp}пп.",
+            "score_set": "Скор был поставлен",
+            "search": "Поиск: `{search}` (Найдено **{scores}** скор(а/ов)",
+            "sort": "Сортировка по: {sort}",
+            "mods": "Моды: {mods}",
+            "mods_exact": "Точные моды: {mods}"
+        },
+        "compare": {
+            "title": "Все {mode} скоры для {username} на {beatmap}",
+            "no_scores": "`{username}` не имеет скоров на **{server}** для {beatmap}."
+        },
+        "simulate": {
+            "no_beatmap_replay": ":x: Не удалось найти карту для данного реплея.",
+            "calculate_hits_failed": ":x: Не удалось вычислить попадания."
+        },
+        "beatmap": {
+            "no_scores": "Скоры не были найдены для {beatmap}.",
+            "leaderboard_miss": "{misses}xМисс(а/ов)",
+            "leaderboard_title": "Таблица лидеров для {beatmap}",
+            "approach_rate": "**▸ АР:** {ar}",
+            "overall_difficulty": "**▸ ОД:** {od}",
+            "hp_drain": "**▸ ХП:** {hp}",
+            "circle_size": "**▸ КС:** {cs}",
+            "mania_keys": "**▸ Клавиши:** {keys}",
+            "map_tab": "**__карта__**",
+            "length": "**▸ Длина:** {length}",
+            "bpm": "**▸ БПМ:** {bpm}",
+            "mods": "**▸ Моды:** {mods}",
+            "download": "**Скачать**: {mirrors}",
+            "difficulty": "**Сложность:** {stars}",
+            "max_combo": "**Макс. комбо:** {max_combo}",
+            "info_tab": "**__информация__**",
+            "status": "**▸ Статус:** {status}",
+            "pp_tab": "**__пп__**",
+            "footer": "ПП расчитано с использованием пп системы {server}."
+        },
+        "nochokes": {
+            "no_chokes": "`{username}` не имеет чоуков на **{server}**.",
+            "title": "Топ не-чоук {mode} плеи для {username}",
+            "total_pp": "Общее ПП: {pp:.2f}пп ➔ **{new_pp:.2f}пп** (+{pp_gain})"
+        },
+        "whatif": {
+            "pp_too_large": ":x: В какой вселенной ты получишь так много пп?",
+            "title": "Что если {user.name} получит {count} {pp}пп скор(а/ов) на {server}?",
+            "single_info": "Скор в `{pp}pp` (`{pp_weighted}pp` засчитано) для {username}",
+            "waste_of_time": "не будет топ-плеем, и они, скорее всего, просто зря потратят время.",
+            "single_details": "Будет их #{score} топ-плей",
+            "multi_info": "{count} `{pp}pp` скора(ов) для {username}",
+            "pp_gain": "и увеличит их общее пп до {pp} (+{pp_gain}pp)."
+        },
+        "pp": {
+            "title": "Сколько пп нужно {username}, чтобы получить {pp}пп?",
+            "single_score": "Чтобы получить {pp}пп одним скором, {username} нужно поставить скор дающий как минимум `{pp_required}`пп (`{pp_weighted}`пп засчитано), который станет их #{score} топ-плеем.",
+            "multi_score": "Чтобы получить {pp}пп с помощью {count} скоров, {username} нужно поставить {count} скора дающих как минимум `{pp_required}`пп."
+        }
+    }
+}
