@@ -9,7 +9,6 @@
             "no_beatmap": ":x: 会話にビートマップが見つかりません。",
             "no_beatmap_link": ":x: ビートマップのリンクを提供してください。",
             "no_beatmap_link_or_file": ":x: ビートマップのリンク/ファイルを提供してください。",
-            "comment2": "バージョンは難易度名です。",
             "beatmap": "{artist} - {title} [{version}]",
             "beatmap_creator": "{artist} - {title} [{version}] で {creator}",
             "no_score_index": "`#{index}`にスコアが見つかりません。",
