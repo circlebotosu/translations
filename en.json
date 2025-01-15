@@ -22,7 +22,7 @@
             "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC)",
             "replay": "Replay",
             "footer": "On {server}",
-            "footer_pages": "On {server} • Page {page}/{max_pages}",
+            "footer_pages": "On {server} • Page {page}/{pages}",
             "pp_too_small": ":x: PP cannot be less than 1."
         },
         "link": {
@@ -100,17 +100,20 @@
         "nochokes": {
             "no_chokes": "`{username}` has no chokes on **{server}**.",
             "title": "Top non-choked {mode} plays for {username}",
-            "total_pp": "Total PP: {pp:.2f}pp ➔ **{new_pp:.2f}pp** (+{pp_gain})"
+            "total_pp": "Total PP: {pp}pp ➔ **{new_pp}pp** (+{pp_gain})"
         },
         "whatif": {
             "comment": "XD",
             "pp_too_large": ":x: In what universe are you getting that much pp?",
-            "title": "What if {user.name} got {count} {pp}pp play(s) on {server}?",
+            "title": "What if {username} got {count} {pp}pp play(s) on {server}?",
             "single_info": "A score of `{pp}pp` (`{pp_weighted}pp` weighted) for {username}",
-            "waste_of_time": "would not be a top play and they would most likely be just wasting their time.",
-            "single_details": "would be their #{score} top play",
             "multi_info": "{count} `{pp}pp` scores for {username}",
-            "pp_gain": "and increase their total pp to {pp} (+{pp_gain}pp)."
+            "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
+            "comment3": "these are just added onto multi/single info.",
+            "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
+            "single_details": " would be their #{score} top play",
+            "pp_gain_single": " and increase their total pp to {pp} (+{pp_gain}pp).",
+            "pp_gain_multi": " would increase their total pp to {pp} (+{pp_gain}pp)."
         },
         "pp": {
             "title": "How much pp {username} needs to get {pp}pp?",

@@ -17,7 +17,7 @@
             "performance_for_fc": "/{pp_for_fc}пп ({acc_for_fc}% ФК)",
             "replay": "Реплей",
             "footer": "На {server}",
-            "footer_pages": "На {server} • Страница {page}/{max_pages}",
+            "footer_pages": "На {server} • Страница {page}/{pages}",
             "pp_too_small": ":x: ПП не может быть меньше 1."
         },
         "link": {
@@ -95,16 +95,18 @@
         "nochokes": {
             "no_chokes": "`{username}` не имеет чоуков на **{server}**.",
             "title": "Топ не-чоук {mode} плеи для {username}",
-            "total_pp": "Общее ПП: {pp:.2f}пп ➔ **{new_pp:.2f}пп** (+{pp_gain})"
+            "total_pp": "Общее ПП: {pp}пп ➔ **{new_pp}пп** (+{pp_gain})"
         },
         "whatif": {
             "pp_too_large": ":x: В какой вселенной ты получишь так много пп?",
             "title": "Что если {user.name} получит {count} {pp}пп скор(а/ов) на {server}?",
             "single_info": "Скор в `{pp}pp` (`{pp_weighted}pp` засчитано) для {username}",
-            "waste_of_time": "не будет топ-плеем, и они, скорее всего, просто зря потратят время.",
-            "single_details": "Будет их #{score} топ-плей",
-            "multi_info": "{count} `{pp}pp` скора(ов) для {username}",
-            "pp_gain": "и увеличит их общее пп до {pp} (+{pp_gain}pp)."
+            "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
+            "comment3": "these are just added onto multi/single info.",
+            "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
+            "single_details": " would be their #{score} top play",
+            "pp_gain_single": " and increase their total pp to {pp} (+{pp_gain}pp).",
+            "pp_gain_multi": " would increase their total pp to {pp} (+{pp_gain}pp)."
         },
         "pp": {
             "title": "Сколько пп нужно {username}, чтобы получить {pp}пп?",

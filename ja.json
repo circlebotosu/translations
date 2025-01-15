@@ -17,7 +17,7 @@
             "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC)",
             "replay": "リプレイ",
             "footer": "{server}で",
-            "footer_pages": "{server}で • ページ {page}/{max_pages}",
+            "footer_pages": "{server}で • ページ {page}/{pages}",
             "pp_too_small": ":x: PPは1未満にできません。"
         },
         "link": {
@@ -95,16 +95,18 @@
         "nochokes": {
             "no_chokes": "`{username}`は**{server}**でチョークがありません。",
             "title": "{username}のトップノンチョーク{mode}プレイ",
-            "total_pp": "合計PP: {pp:.2f}pp ➔ **{new_pp:.2f}pp** (+{pp_gain})"
+            "total_pp": "合計PP: {pp}pp ➔ **{new_pp}pp** (+{pp_gain})"
         },
         "whatif": {
             "pp_too_large": ":x: どの宇宙でそんなに多くのppを取得するのですか？",
-            "title": "{user.name}が{server}で{count} {pp}ppプレイを取得した場合はどうなりますか？",
+            "title": "{username}が{server}で{count} {pp}ppプレイを取得した場合はどうなりますか？",
             "single_info": "{username}の`{pp}pp` (`{pp_weighted}pp` 加重)のスコア",
-            "waste_of_time": "トッププレイにはならず、時間の無駄になる可能性が高いです。",
-            "single_details": "それは彼らの#{score}トッププレイになります",
-            "multi_info": "{username}の{count} `{pp}pp` スコア",
-            "pp_gain": "そして彼らの合計ppを{pp} (+{pp_gain}pp)に増やします。"
+            "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
+            "comment3": "these are just added onto multi/single info.",
+            "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
+            "single_details": " would be their #{score} top play",
+            "pp_gain_single": " and increase their total pp to {pp} (+{pp_gain}pp).",
+            "pp_gain_multi": " would increase their total pp to {pp} (+{pp_gain}pp)."
         },
         "pp": {
             "title": "{username}が{pp}ppを取得するにはどれくらいのppが必要ですか？",
