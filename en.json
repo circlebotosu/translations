@@ -70,7 +70,8 @@
         },
         "compare": {
             "title": "All {mode} plays for {username} on {beatmap}",
-            "no_scores": "`{username}` has no scores on **{server}** for {beatmap}."
+            "no_scores": "`{username}` has no scores on **{server}** for {beatmap}.",
+            "score": "Score"
         },
         "simulate": {
             "no_beatmap_replay": ":x: Failed to find the beatmap of the replay.",

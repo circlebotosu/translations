@@ -65,7 +65,8 @@
         },
         "compare": {
             "title": "{username}の{beatmap}におけるすべての{mode}プレイ",
-            "no_scores": "`{username}`は**{server}**で{beatmap}のスコアがありません。"
+            "no_scores": "`{username}`は**{server}**で{beatmap}のスコアがありません。",
+            "score": "Score"
         },
         "simulate": {
             "no_beatmap_replay": ":x: リプレイのビートマップが見つかりませんでした。",

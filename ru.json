@@ -65,7 +65,8 @@
         },
         "compare": {
             "title": "Все {mode} скоры для {username} на {beatmap}",
-            "no_scores": "`{username}` не имеет скоров на **{server}** для {beatmap}."
+            "no_scores": "`{username}` не имеет скоров на **{server}** для {beatmap}.",
+            "score": "Скор"
         },
         "simulate": {
             "no_beatmap_replay": ":x: Не удалось найти карту для данного реплея.",
