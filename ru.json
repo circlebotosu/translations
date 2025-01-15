@@ -101,6 +101,7 @@
             "pp_too_large": ":x: В какой вселенной ты получишь так много пп?",
             "title": "Что если {user.name} получит {count} {pp}пп скор(а/ов) на {server}?",
             "single_info": "Скор в `{pp}pp` (`{pp_weighted}pp` засчитано) для {username}",
+            "multi_info": "{count} `{pp}pp` скора(ов) для {username}",
             "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
             "comment3": "these are just added onto multi/single info.",
             "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",

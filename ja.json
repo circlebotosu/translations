@@ -101,6 +101,7 @@
             "pp_too_large": ":x: どの宇宙でそんなに多くのppを取得するのですか？",
             "title": "{username}が{server}で{count} {pp}ppプレイを取得した場合はどうなりますか？",
             "single_info": "{username}の`{pp}pp` (`{pp_weighted}pp` 加重)のスコア",
+            "multi_info": "{username}の{count} `{pp}pp` スコア",
             "comment2": "keep the trailing spaces here (unless your language doesn't use spaces)",
             "comment3": "these are just added onto multi/single info.",
             "waste_of_time": " would not be a top play and they would most likely be just wasting their time.",
