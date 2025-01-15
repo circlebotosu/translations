@@ -24,13 +24,13 @@
             "no_option": "Аргументы не предоставлены.",
             "invalid_option": "Неверный аргумент `{option}`. (user/name/username, server, mode)",
             "configure_username": "Конфигурация: Имя пользователя на {server} ",
-            "username_success": ":white_check_mark: **{discord_name}, ваш никнейм на {server} был изменен на `{username}`**.",
-            "configure_server": "Конфигурация: osu! Сервер по умолчанию",
-            "server_not_found": "Сервер `{server}` Не был найден.",
-            "server_success": ":white_check_mark: **{discord_name}, Ваш osu! сервер по умолчанию был изменен на `{server}`**.",
+            "username_success": ":white_check_mark: **{discord_name}, ваш никнейм на {server} был успешно изменен на `{username}`**.",
+            "configure_server": "Конфигурация: osu! сервер  по умолчанию",
+            "server_not_found": "Сервер `{server}` не был найден.",
+            "server_success": ":white_check_mark: **{discord_name}, ваш основной osu! сервер был успешно изменен на `{server}`**.",
             "configure_mode": "Конфигурация: Режим osu! по умолчанию",
             "invalid_mode": "Неверный режим `{mode}`. (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
-            "mode_success": ":white_check_mark: **{discord_name}, Ваш режим osu! по умолчанию был изменен на `{mode}`**."
+            "mode_success": ":white_check_mark: **{discord_name}, ваш основной режим osu! был успешно изменен на `{mode}`**."
         },
         "profile": {
             "title": "{username} {mode} профиль",
