@@ -24,13 +24,13 @@
             "no_option": "オプションが提供されていません。",
             "invalid_option": "無効なオプション `{option}`。 (user/name/username, server, mode)",
             "configure_username": "設定: {server} ユーザー名",
-            "username_success": ":white_check_mark: **{discord_name}、あなたの{server}ユーザー名が{username}に設定されました**。",
+            "username_success": ":white_check_mark: **{discord_name}、あなたの{server}ユーザー名が`{username}`に設定されました**。",
             "configure_server": "設定: デフォルトのosu!サーバー",
             "server_not_found": "サーバー `{server}` が見つかりません。",
-            "server_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!サーバーが{server}に設定されました**。",
+            "server_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!サーバーが{`server}`に設定されました**。",
             "configure_mode": "設定: デフォルトのosu!モード",
             "invalid_mode": "無効なモード `{mode}`。 (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
-            "mode_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!モードが{mode}に設定されました**。"
+            "mode_success": ":white_check_mark: **{discord_name}、あなたのデフォルトのosu!モードが`{mode}`に設定されました**。"
         },
         "profile": {
             "title": "{username}の{mode}プロフィール",
