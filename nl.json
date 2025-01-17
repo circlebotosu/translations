@@ -1,0 +1,118 @@
+    "global": {
+        "processing_time": "Processing time: {time}s"
+    },
+    "osu": {
+        "common": {
+            "comment": "This is used only in 'User ID 1234 not found on server.'",
+            "user_id": "User ID",
+            "not_found": "`{identifier}` niet gevonden in **{server}**.",
+            "no_beatmap": ":x: Geen beatmap gevonden in conversatie.",
+            "no_beatmap_link": ":x: Geef alsjeblieft een beatmaplink op.",
+            "no_beatmap_link_or_file": ":x: Geef alsjeblieft een beatmaplink/bestand op.",
+            "beatmap": "{artist} - {title} [{version}]",
+            "beatmap_creator": "{artist} - {title} [{version}] van {creator}",
+            "no_score_index": "Geen score gevonden op `#{index}`.",
+            "no_scores_page": "Geen scores gevonden op pagina `{page}`.",
+            "performance": "pp",
+            "performance_for_fc": "/{pp_for_fc}pp ({acc_for_fc}% FC)",
+            "replay": "Replay",
+            "footer": "Op {server}",
+            "footer_pages": "On {server} • Pagina {page}/{pages}",
+            "pp_too_small": ":x: PP kan niet minder zijn dan 1."
+        },
+        "link": {
+            "no_option": "Geen opties opgegeven.",
+            "invalid_option": "Ongeldige optie `{option}`. (user/name/username, server, mode)",
+            "configure_username": "Configure: {server} Username",
+            "username_success": ":white_check_mark: **{discord_name}, je {server} username is nu `{username}`**.",
+            "configure_server": "Configure: Standaard osu! Server",
+            "server_not_found": "Server `{server}` niet gevonden.",
+            "server_success": ":white_check_mark: **{discord_name}, jouw standaard osu! server is nu `{server}`**.",
+            "configure_mode": "Configure: Standaard osu! Mode",
+            "invalid_mode": "Invalid mode `{mode}`. (0 - osu!std, 1 - osu!taiko, 2 - osu!catch, 3 - osu!mania)",
+            "mode_success": ":white_check_mark: **{discord_name}, jouw standaard osu! mode is nu `{mode}`**."
+        },
+        "profile": {
+            "title": "{username}'s {mode} profile",
+            "performance_tab": "performance",
+            "performance": "pp: **{pp}**",
+            "accuracy": "nauwkeurigheid: **{accuracy}%**",
+            "global_rank": "globale rang {rank}",
+            "play_count": "play count: **{play_count}**",
+            "info_tab": "general info",
+            "account_created": "account gemaakt: {account_created}",
+            "last_seen": "laatst gezien: {last_seen}"
+        },
+        "recent": {
+            "title": "**Recente {mode} play voor {username}:**",
+            "title_best": "**Top {score} {mode} play voor {username}:**",
+            "no_scores": "`{username}` heeft geen recente scores op **{server}** ({mode}).",
+            "no_best_scores": "`{username}` heeft geen recente topscores op **{server}** ({mode}).",
+            "beatmap_not_found": "Beatmap niet gevonden.\nIs het misschien verwijderd?",
+            "footer": "Poging #{tries} • Op {server} • Score {score}/{total}"
+        },
+        "top": {
+            "title": "Top {mode} plays voor {username}",
+            "no_scores":"`{username}` heeft geen topscores op **{server}** ({mode})",
+            "no_scores_search": "of geen scores gevonden voor trefwoord(en): `{search}`",
+            "no_scores_mods": "of geen scores gevonden met mods: `{mods}`",
+            "greater_than": "`{username}` heeft **{scores}** score(s) groter dan {pp}pp.",
+            "score_set": "Score Gezet",
+            "search": "Zoeken: `{search}` (found **{scores}** score(s))",
+            "sort": "Sorteren: {sort}",
+            "mods": "Mods: {mods}",
+            "mods_exact": "Exacte Mods: {mods}"
+        },
+        "compare": {
+            "title": "Alle {mode} plays voor {username} op {beatmap}",
+            "no_scores": "`{username}` heeft geen scores **{server}** voor {beatmap}.",
+            "score": "Score"
+        },
+        "simulate": {
+            "no_beatmap_replay": ":x: Kan de beatmap van de replay niet vinden.",
+            "calculate_hits_failed": ":x: Kan hits niet berekenen."
+        },
+        "beatmap": {
+            "no_scores": "Geen scores gevonden voor {beatmap}.",
+            "leaderboard_miss": "{misses}xMiss",
+            "leaderboard_title": "Leaderbord voor {beatmap}",
+            "approach_rate": "**▸ AR:** {ar}",
+            "overall_difficulty": "**▸ OD:** {od}",
+            "hp_drain": "**▸ HP:** {hp}",
+            "circle_size": "**▸ CS:** {cs}",
+            "mania_keys": "**▸ Keys:** {keys}",
+            "map_tab": "**__map__**",
+            "length": "**▸ Lengte:** {length}",
+            "bpm": "**▸ BPM:** {bpm}",
+            "mods": "**▸ Mods:** {mods}",
+            "download": "**Download**: {mirrors}",
+            "difficulty": "**Meoilijkheidsgraad:** {stars}",
+            "max_combo": "**Maximale Combo:** {max_combo}",
+            "info_tab": "**__info__**",
+            "status": "**▸ Status:** {status}",
+            "pp_tab": "**__pp__**",
+            "footer": "PP berekend met {server}'s pp systeem."
+        },
+        "nochokes": {
+            "no_chokes": "`{username}` heeft geen chokes op **{server}**.",
+            "title": "Top non-choked {mode} plays voor {username}",
+            "total_pp": "Totale PP: {pp}pp ➔ **{new_pp}pp** (+{pp_gain})"
+        },
+        "whatif": {
+            "comment": "XD",
+            "pp_too_large": ":x: In welk universum haal je zo veel PP?",
+            "title": "Wat als {username} {count} {pp}pp play(s) haalt op {server}?",
+            "single_info": "Èèn score van `{pp}pp` (`{pp_weighted}pp` weighted) voor {username}",
+            "multi_info": "{count} `{pp}pp` scores for {username}",
+            "waste_of_time": " zou geen topscore zijn en zou hun tijd meestwaarschijnlijk verspillen",
+            "single_details": " zou hun #{score} topscore zijn",
+            "pp_gain_single": " zou hun totale pp verhogen naar {pp}pp (+{pp_gain}pp).",
+            "pp_gain_multi": " zou hun totale pp verhogen naar {pp}pp (+{pp_gain}pp)."
+        },
+        "pp": {
+            "title": "Hoe veel pp moet {username} halen om {pp}pp te krijgen?",
+            "single_score": "Om {pp}pp te halen met èèn nieuwe score, zou {username} een score van tenminste `{pp_required}`pp (`{pp_weighted}`pp weighted), moeten halen, wat hun #{score} topscore zou zijn.",
+            "multi_score": "Om {pp}pp te halen met {count} nieuwe scores, zou {username} {count} scores moeten halen die tenminste `{pp_required}`pp waard zijn."
+        }
+    }
+}
