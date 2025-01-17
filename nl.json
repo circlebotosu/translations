@@ -3,7 +3,6 @@
     },
     "osu": {
         "common": {
-            "comment": "This is used only in 'User ID 1234 not found on server.'",
             "user_id": "User ID",
             "not_found": "`{identifier}` niet gevonden in **{server}**.",
             "no_beatmap": ":x: Geen beatmap gevonden in conversatie.",
@@ -99,7 +98,6 @@
             "total_pp": "Totale PP: {pp}pp ➔ **{new_pp}pp** (+{pp_gain})"
         },
         "whatif": {
-            "comment": "XD",
             "pp_too_large": ":x: In welk universum haal je zo veel PP?",
             "title": "Wat als {username} {count} {pp}pp play(s) haalt op {server}?",
             "single_info": "Èèn score van `{pp}pp` (`{pp_weighted}pp` weighted) voor {username}",
