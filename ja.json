@@ -35,7 +35,7 @@
         "profile": {
             "title": "{username}の{mode}プロフィール",
             "performance_tab": "パフォーマンス",
-            "performance": "pp: **{pp}**",
+            "performance": "pp: **{pp}pp**",
             "accuracy": "精度: **{accuracy}%**",
             "global_rank": "グローバルランク: {rank}",
             "play_count": "プレイ回数: **{play_count}**",
@@ -59,9 +59,9 @@
             "greater_than": "`{username}`は**{scores}**スコアが{pp}ppを超えています。",
             "score_set": "スコアセット",
             "search": "検索: `{search}` (見つかったスコア **{scores}**)",
-            "sort": "ソート: {sort}",
-            "mods": "モッド: {mods}",
-            "mods_exact": "正確なモッド: {mods}"
+            "sort": "ソート: `{sort}`",
+            "mods": "モッド: `{mods}`",
+            "mods_exact": "正確なモッド: `{mods}`"
         },
         "compare": {
             "title": "{username}の{beatmap}におけるすべての{mode}プレイ",

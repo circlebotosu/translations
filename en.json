@@ -40,7 +40,7 @@
         "profile": {
             "title": "{username}'s {mode} profile",
             "performance_tab": "performance",
-            "performance": "pp: **{pp}**",
+            "performance": "pp: **{pp}pp**",
             "accuracy": "accuracy: **{accuracy}%**",
             "global_rank": "global rank: {rank}",
             "play_count": "play count: **{play_count}**",
@@ -64,9 +64,9 @@
             "greater_than": "`{username}` has **{scores}** score(s) greater than {pp}pp.",
             "score_set": "Score Set",
             "search": "Search: `{search}` (found **{scores}** score(s))",
-            "sort": "Sort: {sort}",
-            "mods": "Mods: {mods}",
-            "mods_exact": "Exact Mods: {mods}"
+            "sort": "Sort: `{sort}`",
+            "mods": "Mods: `{mods}`",
+            "mods_exact": "Exact Mods: `{mods}`"
         },
         "compare": {
             "title": "All {mode} plays for {username} on {beatmap}",

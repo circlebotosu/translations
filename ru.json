@@ -35,7 +35,7 @@
         "profile": {
             "title": "{username} {mode} профиль",
             "performance_tab": "Статистика",
-            "performance": "пп: **{pp}**",
+            "performance": "пп: **{pp}пп**",
             "accuracy": "точность: **{accuracy}%**",
             "global_rank": "глобальный ранк: {rank}",
             "play_count": "количество игр: **{play_count}**",
@@ -59,9 +59,9 @@
             "greater_than": "`{username}` имеет **{scores}** скор(а/ов) больше чем {pp}пп.",
             "score_set": "Скор был поставлен",
             "search": "Поиск: `{search}` (Найдено **{scores}** скор(а/ов)",
-            "sort": "Сортировка по: {sort}",
-            "mods": "Моды: {mods}",
-            "mods_exact": "Точные моды: {mods}"
+            "sort": "Сортировка по: `{sort}`",
+            "mods": "Моды: `{mods}`",
+            "mods_exact": "Точные моды: `{mods}`"
         },
         "compare": {
             "title": "Все {mode} скоры для {username} на {beatmap}",
