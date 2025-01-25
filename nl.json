@@ -1,9 +1,9 @@
     "global": {
-        "processing_time": "Processing time: {time}s"
+        "processing_time": "Verwerkingstijd: {time}s"
     },
     "osu": {
         "common": {
-            "user_id": "User ID",
+            "user_id": "Gebruikers ID",
             "not_found": "`{identifier}` niet gevonden in **{server}**.",
             "no_beatmap": ":x: Geen beatmap gevonden in conversatie.",
             "no_beatmap_link": ":x: Geef alsjeblieft een beatmaplink op.",
@@ -38,7 +38,7 @@
             "accuracy": "nauwkeurigheid: **{accuracy}%**",
             "global_rank": "globale rang {rank}",
             "play_count": "play count: **{play_count}**",
-            "info_tab": "general info",
+            "info_tab": "algemene info",
             "account_created": "account gemaakt: {account_created}",
             "last_seen": "laatst gezien: {last_seen}"
         },
